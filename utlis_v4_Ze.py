@@ -49,6 +49,7 @@ def selectdashboard(driver, dashboard): #input parameter
     DashElements = driver.find_elements_by_class_name('gb-dashboard-card-title')
     Dashboards = [DashElements[i].text for i in range(len(DashElements))]
 
+
     print("We currently have ", len(Dashboards), " Dashboards: ", Dashboards)
     print("The location of the dashboard we are seeking for is: Index[", Dashboards.index(dashboard),"].")
 
@@ -218,16 +219,17 @@ def checkvolume(driver):
 def setup(Username, Password, dashboard, Filters, Data_format, Sample):
     driver = openweb()
     login(driver, Username, Password) #input parameter
-    time.sleep(10)
+    time.sleep(15)
     selectdashboard(driver, dashboard)
-    time.sleep(10)
+    time.sleep(30)
     data_tab(driver)
+    time.sleep(15)
     filters(driver, Filters)
     time.sleep(10)
     select_publisher(driver, Filters)
     select_language(driver, Filters)
     select_all_topics(driver)
-    select_country(driver, Filters)
+    #select_country(driver, Filters)
 
 
     return driver
@@ -291,6 +293,16 @@ def dataexport(driver, Data_format, Sample):
     except Exception as e:
         print(e)
 
+    return volume
+
+def dataexportcheck(driver):
+    flag = False #still in data collection, not ready to start next round
+    try:
+        CancelExportSign = driver.find_element_by_xpath('/html/body/div[1]/div/div/div/header/div[1]/div/div[2]/nav/div[3]/div[1]/button')
+    except:
+        flag = True
+
+    return driver,flag
 
 
 

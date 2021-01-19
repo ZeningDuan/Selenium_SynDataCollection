@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+Month,Day,Hour,Volume,Difference,Note
+=======
 Month,Day,Hour, Volume, Difference,Note
+>>>>>>> 4b84bb8a35ab49a97dbc8d85f1ce170cdfa6e287
 6,13,0,,,
 6,13,1,,,
 6,13,2,,,
