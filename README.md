@@ -7,8 +7,7 @@ An easy way to automate your data collection task.
 <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
 <details open="open">  
   <ol>
-    <li><a href="#about-the-automater">About The Project</a>
-    <li><a href="#built-with">Built With</a></li>
+    <li><a href="#about-the-automator">About The Automator</a>
     <li><a href="#getting-started">Getting Started</a>
     <li><a href="#prerequisites">Prerequisites</a></li>
     <li><a href="#installation">Installation</a></li>
@@ -18,9 +17,10 @@ An easy way to automate your data collection task.
 </details>
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## About The Automator
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+This Automator was built based on Selenium Webdriver,an automating web-based application.See more information about [Selenium Webdriver]: https://www.selenium.dev/documentation/en/introduction/ 
+
 
 Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
