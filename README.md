@@ -19,7 +19,7 @@ An easy way to automate your data collection task.
 <!-- ABOUT THE PROJECT -->
 ## About The Automator
 
-This Automator was built based on Selenium Webdriver,an automating web-based application.See more information about [Selenium Webdriver]: https://www.selenium.dev/documentation/en/introduction/ 
+This Automator was built based on Selenium Webdriver,an automating web-based application.See more information about [Selenium Webdriver]: (https://www.selenium.dev/documentation/en/introduction/)
 
 
 Here's a blank template to get started:
