@@ -19,12 +19,14 @@ An easy way to automate your data collection task.
 <!-- ABOUT THE PROJECT -->
 ## About The Automator
 
-This Automator was built based on Selenium Webdriver,an automating web-based application.See more information about
-[Selenium Webdriver](https://www.selenium.dev/documentation/en/introduction/).
+This Automator was built based on Firefox broswer + Selenium Webdriver,an automating web-based application.See more information about [Selenium Webdriver](https://www.selenium.dev/documentation/en/introduction/).
 
 Who would benefit from using this tool?
-* If
-* If you
+* If you have a clear time frame of data collection
+* If you have a set of filter rules (e.g., language, publisher, geolocation, etc.) to apply
+* If you expect to take samples given a customized time interval
+* If you expect to monitor the whole data collection process and save volume trend infomation locally 
+* If you expect a smooth, stable, and robust data collection process without any interventions
 
 
 Here's a blank template to get started:
