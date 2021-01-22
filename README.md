@@ -4,9 +4,9 @@ An easy way to automate your data collection task.
 
 
 <!-- TABLE OF CONTENTS -->
-<details open="open">
-    <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
-    <ol>
+<summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+<details open="open">  
+<ol>
     <li><a href="#about-the-automater">About The Project</a>
     <li><a href="#built-with">Built With</a></li>
     <li><a href="#getting-started">Getting Started</a>
@@ -14,9 +14,8 @@ An easy way to automate your data collection task.
     <li><a href="#installation">Installation</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
-   <ol>
+<ol>
 </details>
-
 
 
 <!-- ABOUT THE PROJECT -->
