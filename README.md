@@ -20,19 +20,17 @@ An easy way to automate your data collection task.
 ## About The Automator
 
 This Automator was built based on Selenium Webdriver,an automating web-based application.See more information about
-[Selenium Webdriver](https://www.selenium.dev/documentation/en/introduction/)
+[Selenium Webdriver](https://www.selenium.dev/documentation/en/introduction/).
+
+Who would benefit from using this tool?
+* If
+* If you
 
 
 Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
 `github_username`, `repo_name`, `twitter_handle`, `email`, `project_title`, `project_description`
 
-
-### Built With
-
-* []()
-* []()
-* []()
 
 
 
