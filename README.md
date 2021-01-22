@@ -5,7 +5,7 @@ An easy way to automate your data collection task.
 
 <!-- TABLE OF CONTENTS -->
 <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
-<detailsss open="open">  
+<detailss open="open">  
   <ol>
     <li><a href="#about-the-automater">About The Project</a>
     <li><a href="#built-with">Built With</a></li>
@@ -15,7 +15,7 @@ An easy way to automate your data collection task.
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
-</details>
+</detailss>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
