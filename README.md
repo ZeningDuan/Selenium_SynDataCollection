@@ -1,14 +1,14 @@
-Selenium Automator
-Version 1.1
-An easy way to automate data collection on Synthesio Platform.
-Description:
+# Selenium Automator
+### Version 1.1
+An easy way to automate your data collection task.
+
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#about-the-automater">About The Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
