@@ -117,7 +117,7 @@ Data_format = ['XLSX', 'CSV'][1]
 <!-- INSTALLATION -->
 ### Installation
 1. Download [Python Jupyter](https://jupyter.org/install)
-2. Download the [Firehose Webdriver](https://github.com/mozilla/geckodriver/releases) and save it to 
+2. Download the [Firehose Webdriver](https://github.com/mozilla/geckodriver/releases) and save it to the working directory. 
 
 
 <!-- CONTACT -->
@@ -126,5 +126,5 @@ Zening 'Ze' Duan, _SJMC_, University of Wisconsin-Madison
 
 <!-- ACKNOWLEDGEMENT -->
 ### Acknowledgement
-Thanks Zhongkai Sun for 
+Thanks Zhongkai Sun for technical support.
 
