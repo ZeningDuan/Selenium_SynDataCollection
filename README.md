@@ -28,6 +28,14 @@ Who would benefit from using this tool?
 * If you expect to monitor the whole data collection process and save volume trend infomation locally;
 * If you expect a smooth, stable, and robust data collection process without any intervention.
 
+**New updates and versions are comming soon**
+| Version | Features           | Estimated Date  |
+| --------|:-------------:     | ---------------:|
+| V2      | Break-point reconnection | Early Feb |
+| V3      | Support all filters      | Late Feb  |
+
+
+
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -104,12 +112,13 @@ Data_format = ['XLSX', 'CSV'][1]
 
 2. Create a CSV file and save in a local path by using the code '''Volume Record Table_Synthesio data export.ipynb'''. We will use this CSV file to automatically identify the exact volume size of each dataset exported from the platform and save locally. This design could be helpful when the actual size of each dataset exceeds the 50K cap and repeated sampling is required.
 
-3. Download the [Firehose Webdriver](https://github.com/mozilla/geckodriver/releases) and save it to 
 
 
-## How to use?
-download driver
-send input
+<!-- INSTALLATION -->
+### Installation
+1. Download [Python Jupyter](https://jupyter.org/install)
+2. Download the [Firehose Webdriver](https://github.com/mozilla/geckodriver/releases) and save it to 
+
 
 Future Versions:
 - V2: support resuming from break-point
