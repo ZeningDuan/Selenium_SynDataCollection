@@ -124,7 +124,7 @@ Data_format = ['XLSX', 'CSV'][1]
 ### Contact
 Zening 'Ze' Duan, _SJMC_, University of Wisconsin-Madison
 
-<!-- ACKNOWLEDGEMENT -->
-### Acknowledgement
+<!-- ACKNOWLEDGEMENTS -->
+### Acknowledgements
 Thanks Zhongkai Sun for technical support.
 
