@@ -31,32 +31,44 @@ Who would benefit from using this tool?
 
 <!-- GETTING STARTED -->
 ## Getting Started
+Parameters in the Selenium Automator vary based on different task goals. A user-friendly way is to sepecify the parameters in the following code chunk. Before start, you should prepare:
+* **Username and password for logging in**
+* **Filters**
+  - Topics (*this version only supports selecting all topics*)  
+  - Publisher categories (e.g., Twitter, Facebook)
+  - Languages (e.g., English, Chinese)
+  - Countries (including both continent-level and country-level information, e.g., North America [United States], Africa[Morocco])
+* **Dashboard name**
+* **Begin/End time** (Year/Month/Day/Hour/Minute)
+* **Time Interval** (hour-level)
+* **Sampling plan**
+  - Mode(i.e., return the head N or a random N)
+  - Fraction(i.e., a float indicate the sampling fraction)
+* **Data format** (i.e., XLSX or CSV)
 
 ```
 Username = 'XXXX' #Enter your username
 Password = 'XXXX' #Enter your password
 
-Filters = {#default filters: Period, Topics, Publisher
-           'Topics': ['all'
-                      #, 'user_defined'
+Filters = {
+           'Topics': ['all',
+                      'user_defined'
                      ],
            'Publisher categories': ['Twitter',
-                                   #'Facebook'
+                                   'Facebook'
                                    ],
            #only support non-default filters: lang and geo for this version. Update the non_default_filters dict if needed
            'Languages': ['English'
-                         #,'Chinese'
+                         ,'Chinese'
                         ],
             
-           #'Countries': {'North America': ['United States'],
-                         #'Africa': ['Morocco', 'Algeria', 'Tunisia'],
-                         #'Asia': ['India', 'Japan', 'China']
-               
-               
-           #}
+           'Countries': {'North America': ['United States'],
+                         'Africa': ['Morocco', 'Algeria', 'Tunisia'],
+                         'Asia': ['India', 'Japan', 'China']
+                        }
           } 
 
-Dashboard = str('CAMER (Copy)')
+Dashboard = str('XXX')#enter your dashboard name, e.g., "CAMER (Copy)"
 
  
 
@@ -75,7 +87,7 @@ End_date = {'Year':'2020' ,
            }
 
 
-Time_interval = float(1.0) #in hour
+Time_interval = float(1.0) #in one hour, change it if needed
 
 Sample = {'mode': #'head',
                    'random'
