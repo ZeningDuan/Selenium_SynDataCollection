@@ -42,8 +42,8 @@ Parameters in the Selenium Automator vary based on different task goals. A user-
 * **Begin/End time** (Year/Month/Day/Hour/Minute)
 * **Time Interval** (hour-level)
 * **Sampling plan**
-  - Mode(i.e., return the head N or a random N)
-  - Fraction(i.e., a float number indicates the expected sampling fraction)
+  - Mode (i.e., return the head N or a random N)
+  - Fraction (i.e., a float number indicates the expected sampling fraction)
 * **Data format** (i.e., XLSX or CSV)
 
 ```
