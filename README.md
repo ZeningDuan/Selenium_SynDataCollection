@@ -1,6 +1,6 @@
 # Selenium Automator
 ### Version 1.1
-An easy way to automate your data collection task.
+An easy way to automate your data collection task on new dashboard.
 
 
 <!-- TABLE OF CONTENTS -->
@@ -22,24 +22,70 @@ An easy way to automate your data collection task.
 This Automator was built based on Firefox broswer + Selenium Webdriver,an automating web-based application.See more information about [Selenium Webdriver](https://www.selenium.dev/documentation/en/introduction/).
 
 Who would benefit from using this tool?
-* If you have a clear time frame of data collection
-* If you have a set of filter rules (e.g., language, publisher, geolocation, etc.) to apply
-* If you expect to take samples given a customized time interval
-* If you expect to monitor the whole data collection process and save volume trend infomation locally 
-* If you expect a smooth, stable, and robust data collection process without any interventions
-
-
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo_name`, `twitter_handle`, `email`, `project_title`, `project_description`
-
-
+* If you have a clear time frame of data collection;
+* If you have a set of filter rules (e.g., language, publisher, geolocation, etc.) to apply;
+* If you expect to take samples given a customized time interval;
+* If you expect to monitor the whole data collection process and save volume trend infomation locally;
+* If you expect a smooth, stable, and robust data collection process without any intervention.
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get a local copy up and running follow these simple steps.
+```
+Username = 'XXXX' #Enter your username
+Password = 'XXXX' #Enter your password
+
+Filters = {#default filters: Period, Topics, Publisher
+           'Topics': ['all'
+                      #, 'user_defined'
+                     ],
+           'Publisher categories': ['Twitter',
+                                   #'Facebook'
+                                   ],
+           #only support non-default filters: lang and geo for this version. Update the non_default_filters dict if needed
+           'Languages': ['English'
+                         #,'Chinese'
+                        ],
+            
+           #'Countries': {'North America': ['United States'],
+                         #'Africa': ['Morocco', 'Algeria', 'Tunisia'],
+                         #'Asia': ['India', 'Japan', 'China']
+               
+               
+           #}
+          } 
+
+Dashboard = str('CAMER (Copy)')
+
+ 
+
+Begin_date = {'Year': '2020',
+             'Month': '06',
+             'Day': '17',
+              'Hour': '00',
+              'Minute': '00'
+             }
+
+End_date = {'Year':'2020' ,
+             'Month': '06',
+             'Day': '18',
+            'Hour': '23',
+              'Minute': '59'
+           }
+
+
+Time_interval = float(1.0) #in hour
+
+Sample = {'mode': #'head',
+                   'random'
+                  ,
+    'fraction': float(1)
+}
+
+Data_format = ['XLSX', 'CSV'][1]
+
+```
 
 ### Prerequisites
 
