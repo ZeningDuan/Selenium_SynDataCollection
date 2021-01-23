@@ -122,7 +122,7 @@ Data_format = ['XLSX', 'CSV'][1]
 
 <!-- CONTACT -->
 ### Contact
-Zening 'Ze' Duan, SJMC, University of Wisconsin-Madison
+Zening 'Ze' Duan, _SJMC_, University of Wisconsin-Madison
 
 <!-- ACKNOWLEDGEMENT -->
 ### Acknowledgement
