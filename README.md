@@ -31,7 +31,7 @@ Who would benefit from using this tool?
 
 <!-- GETTING STARTED -->
 ## Getting Started
-Parameters in the Selenium Automator vary based on different task goals. A user-friendly way is to sepecify the parameters in the following code chunk. Before start, you should prepare:
+Parameters in the Selenium Automator vary based on different task goals. A user-friendly way is to sepecify the parameters in the code chunk below. Before start, you should prepare the following information:
 * **Username and password for logging in**
 * **Filters**
   - Topics (*this version only supports selecting all topics*)  
@@ -43,7 +43,7 @@ Parameters in the Selenium Automator vary based on different task goals. A user-
 * **Time Interval** (hour-level)
 * **Sampling plan**
   - Mode(i.e., return the head N or a random N)
-  - Fraction(i.e., a float indicate the sampling fraction)
+  - Fraction(i.e., a float number indicates the expected sampling fraction)
 * **Data format** (i.e., XLSX or CSV)
 
 ```
