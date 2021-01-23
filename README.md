@@ -31,7 +31,7 @@ Who would benefit from using this tool?
 
 <!-- GETTING STARTED -->
 ## Getting Started
-Parameters in the Selenium Automator vary based on different task goals. A user-friendly way is to sepecify the parameters in the code chunk below. Before start, you should prepare the following information:
+Parameters in the Selenium Automator vary based on different task goals. A user-friendly way is to sepecify the parameters in the code chunk below. Before start, you should prepare the following information and modify the dictionaries accordingly:
 * **Username and password for logging in**
 * **Filters**
   - Topics (*this version only supports selecting all topics*)  
@@ -98,24 +98,14 @@ Sample = {'mode': #'head',
 Data_format = ['XLSX', 'CSV'][1]
 
 ```
-
+<!-- PREREQUISITIES -->
 ### Prerequisites
+1. To have a good experience in using this autometor, you may expected to have basic Python programming skills, specifically, understanding what and how to play with [dictionary](https://realpython.com/python-dicts/), how to call a packed [function](http://introtopython.org/introducing_functions.html), and how to interact with [pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html). Check the hyperlinks could help you to easy start your learning curves.
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+2. Create a CSV file and save in a local path by using the code '''Volume Record Table_Synthesio data export.ipynb'''. We will use this CSV file to automatically identify the exact volume size of each dataset exported from the platform and save locally. This design could be helpful when the actual size of each dataset exceeds the 50K cap and repeated sampling is required.
 
+3. Download the [Firehose Webdriver](https://github.com/mozilla/geckodriver/releases) and save it to 
 
-
-### Input format: Dictionary
-### Filters:
-#### Period
-#### Topics
-#### Publisher Categories
-#### Languages
-#### Countries
 
 ## How to use?
 download driver
