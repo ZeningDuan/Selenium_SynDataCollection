@@ -236,7 +236,7 @@ def setup(Username, Password, dashboard, Filters, Data_format, Sample):
     select_publisher(driver, Filters)
     select_language(driver, Filters)
     select_all_topics(driver)
-    #select_country(driver, Filters)
+    select_country(driver, Filters)
 
 
     return driver
