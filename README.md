@@ -7,7 +7,7 @@ An easy way to automate your data collection task on new dashboard.
 <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
 <details open="open">  
   <ol>
-    <li><a href="#about-the-automator">About The Automator</a>
+    <li><a href="#about-the-automator">About the Automator</a>
     <li><a href="#getting-started">Getting Started</a>
     <li><a href="#prerequisites">Prerequisites</a></li>
     <li><a href="#installation">Installation</a></li>
@@ -17,7 +17,7 @@ An easy way to automate your data collection task on new dashboard.
 </details>
 
 <!-- ABOUT THE PROJECT -->
-## About The Automator
+## About the Automator
 
 This Automator was built based on Firefox broswer + Selenium Webdriver,an automating web-based application.See more information about [Selenium Webdriver](https://www.selenium.dev/documentation/en/introduction/).
 
