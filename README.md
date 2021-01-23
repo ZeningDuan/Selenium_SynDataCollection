@@ -120,10 +120,11 @@ Data_format = ['XLSX', 'CSV'][1]
 2. Download the [Firehose Webdriver](https://github.com/mozilla/geckodriver/releases) and save it to 
 
 
-Future Versions:
-- V2: support resuming from break-point
-- V3: Completed Filters available
+<!-- CONTACT -->
+### Contact
+Zening 'Ze' Duan, SJMC, University of Wisconsin-Madison
 
+<!-- ACKNOWLEDGEMENT -->
+### Acknowledgement
+Thanks Zhongkai Sun for 
 
-Credits
-SJMC- CAMER & SMAD
