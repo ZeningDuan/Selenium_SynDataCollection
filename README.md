@@ -19,7 +19,7 @@ An easy way to automate your data collection task on new dashboard.
 <!-- ABOUT THE PROJECT -->
 ## About the Automator
 
-This Automator was built based on Firefox broswer + Selenium Webdriver,an automating web-based application.See more information about [Selenium Webdriver](https://www.selenium.dev/documentation/en/introduction/).
+This Automator was built based on Firefox browser + Selenium Webdriver,an automating web-based application.See more information about [Selenium Webdriver](https://www.selenium.dev/documentation/en/introduction/).
 
 Who would benefit from using this tool?
 * If you have a clear time frame of data collection;
