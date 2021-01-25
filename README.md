@@ -35,6 +35,7 @@ Who would benefit from using this tool?
 | V3      | Support all filters      | Late Feb  |
 
 
+NOTE: As Synthesio tasks vary, it is hardly to have an one-for-all template. Modifications are always necessary and encouraged. For any question, please check the contact info below. 
 
 
 <!-- GETTING STARTED -->
