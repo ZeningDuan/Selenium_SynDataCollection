@@ -26,7 +26,7 @@ def openweb():
     return driver
 
 
-def login(driver, username, pw): #'syang84@wisc.edu', 'Ybm7VNrN'
+def login(driver, username, pw): 
 
     #username
     Email = driver.find_element_by_tag_name('input')
