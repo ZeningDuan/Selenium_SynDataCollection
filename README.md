@@ -117,6 +117,7 @@ Data_format = ['XLSX', 'CSV'][1]
   - re
   - selenium
   - pandas
+  - itertools
 
 <!-- INSTALLATION -->
 ### Installation
