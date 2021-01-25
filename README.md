@@ -19,14 +19,14 @@ An easy way to automate your data collection task on new dashboard.
 <!-- ABOUT THE PROJECT -->
 ## About the Automator
 
-This Automator was built based on Firefox browser + Selenium Webdriver,an automating web-based application.See more information about [Selenium Webdriver](https://www.selenium.dev/documentation/en/introduction/).
+This Automator was built based on Firefox browser(84.0.2) + Selenium Webdriver,an automating web-based application.See more information about [Selenium Webdriver](https://www.selenium.dev/documentation/en/introduction/). Codes are arranged in Python 3.7.0. 
 
-Who would benefit from using this tool?
+Who would benefit from this tool?
 * If you have a clear time frame of data collection;
 * If you have a set of filter rules (e.g., language, publisher, geolocation, etc.) to apply;
-* If you expect to take samples given a customized time interval;
-* If you expect to monitor the whole data collection process and save volume trend infomation locally;
-* If you expect a smooth, stable, and robust data collection process without any intervention.
+* If you plan to take samples given a customized time interval;
+* If you plan to monitor the whole data collection process and save volume trend infomation locally;
+* If you plan a smooth, stable, and robust data collection process without any intervention.
 
 **New updates and versions are comming soon**
 | Version | Features           | Estimated Date  |
@@ -40,7 +40,7 @@ NOTE: As Synthesio tasks vary, it is hardly to have an one-for-all template. Mod
 
 <!-- GETTING STARTED -->
 ## Getting Started
-Parameters in the Selenium Automator vary based on different task goals. A user-friendly way is to sepecify the parameters in the code chunk below. Before start, you should prepare the following information and modify the dictionaries accordingly:
+Parameters in the Selenium Automator vary on different task goals. A user-friendly way is to sepecify the parameters in the code chunk below. Before start, you should prepare the following information and modify the dictionaries accordingly:
 * **Username and password for logging in**
 * **Filters**
   - Topics (*this version only supports selecting all topics*)  
@@ -109,17 +109,20 @@ Data_format = ['XLSX', 'CSV'][1]
 ```
 <!-- PREREQUISITIES -->
 ### Prerequisites
-1. To have a good experience in using this autometor, you may expected to have basic Python programming skills, specifically, understanding what and how to play with [dictionary](https://realpython.com/python-dicts/), how to call a packed [function](http://introtopython.org/introducing_functions.html), and how to interact with [pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html). Check the hyperlinks could help you to easy start your learning curves.
+1. You will need basic Python programming skills, specifically, experiences working with [dictionary](https://realpython.com/python-dicts/), calling a packed [function](http://introtopython.org/introducing_functions.html), and interacting with [pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html).
 
-2. Create a CSV file and save in a local path by using the code '''Volume Record Table_Synthesio data export.ipynb'''. We will use this CSV file to automatically identify the exact volume size of each dataset exported from the platform and save locally. This design could be helpful when the actual size of each dataset exceeds the 50K cap and repeated sampling is required.
+2. Create a CSV file and save in a local path by using the code _'''Volume Record Table_Synthesio data export.ipynb'''_. We will use this CSV file later to automatically record the volume size of each dataset exported from the platform.
 
-
+3. Python packages:
+  - re
+  - selenium
+  - pandas
 
 <!-- INSTALLATION -->
 ### Installation
 1. Download [Python Jupyter](https://jupyter.org/install)
-2. Download the [Firehose Webdriver](https://github.com/mozilla/geckodriver/releases) and save it to the working directory. 
-
+2. Download [Firehose Webdriver](https://github.com/mozilla/geckodriver/releases) and save it to the working directory. 
+3. Download [Firefox browser](https://www.mozilla.org/en-US/firefox/)
 
 <!-- CONTACT -->
 ### Contact
