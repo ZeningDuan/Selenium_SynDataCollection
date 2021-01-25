@@ -111,7 +111,7 @@ Data_format = ['XLSX', 'CSV'][1]
 ### Prerequisites
 1. You will need basic Python programming skills, specifically, experiences working with [dictionary](https://realpython.com/python-dicts/), calling a packed [function](http://introtopython.org/introducing_functions.html), and interacting with [pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html).
 
-2. Create a CSV file and save in a local path by using the code _'''Volume Record Table_Synthesio data export.ipynb'''_. We will use this CSV file later to automatically record the volume size of each dataset exported from the platform.
+2. Create a CSV file and save in a local path by using the code _Volume Record Table_Synthesio data export.ipynb_. We will use this CSV file later to automatically record the volume size of each dataset exported from the platform.
 
 3. Python packages:
   - re
