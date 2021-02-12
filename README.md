@@ -127,9 +127,11 @@ Data_format = ['XLSX', 'CSV'][1]
 
 <!-- CONTACT -->
 ### Contact
-Zening 'Ze' Duan, _SJMC_, University of Wisconsin-Madison
+Zening 'Ze' Duan, [_SJMC_](https://journalism.wisc.edu/), University of Wisconsin-Madison
+
+zening.duan AT wisc DOT edu 
 
 <!-- ACKNOWLEDGEMENTS -->
 ### Acknowledgements
-Thanks Zhongkai Sun for technical support.
+Thanks Zhongkai for code testing and debugging, and thank Sijia and Dhavan for their support.
 
