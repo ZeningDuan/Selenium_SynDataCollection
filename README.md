@@ -31,7 +31,7 @@ Who would benefit from this tool?
 **New updates and versions are comming soon**
 | Version | Features           | Estimated Date  |
 | --------|:-------------:     | ---------------:|
-| V2      | Break-point reconnection | Early Feb |
+| V2      | Break-point reconnection | Finished |
 | V3      | Support all filters      | Late Feb  |
 
 
