@@ -10,10 +10,15 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
-from utlis_v4_Ze import *
+from utlis_v5 import *
 from datetime import timedelta
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.select import Select
 
 import pandas as pd
+import numpy as np
 
 
 
@@ -25,27 +30,32 @@ def openweb():
     return driver
 
 
-def login(driver, username, pw): 
+def login(driver, username, pw):
 
     #username
-    Email = driver.find_element_by_tag_name('input')
+    Email=WebDriverWait(driver,30).until(EC.element_to_be_clickable((By.ID,"loginField")))
+    #Email = driver.find_element_by_tag_name('input')
+    print(Email)
+    time.sleep(3)
+
     Email.click()
     Email.send_keys(username) #input your username here
-    time.sleep(1)
+    time.sleep(3)
 
-    Next = driver.find_element_by_id('next')
+    Next = driver.find_element_by_tag_name('button')
     Next.click()
-    time.sleep(1)
+    time.sleep(3)
 
     #password
-    Password = driver.find_element_by_xpath('/html/body/main/form[2]/div[2]/label/input')
+    Password = driver.find_element_by_xpath('/html/body/main/form/ul/li/label/input')
     Password.click()
     Password.send_keys(pw) #input your password here
-    time.sleep(1)
+    time.sleep(3)
 
     #log in
-    LoginButton = driver.find_element_by_xpath('/html/body/main/form[2]/div[2]/button')
+    LoginButton = driver.find_element_by_xpath('/html/body/main/form/ul/li/button')
     LoginButton.click()
+    time.sleep(3)
 
 
 
@@ -235,12 +245,27 @@ def setup(Username, Password, dashboard, Filters, Data_format, Sample):
     select_publisher(driver, Filters)
     select_language(driver, Filters)
     select_all_topics(driver)
-    select_country(driver, Filters)
-
+    #select_country(driver, Filters)
 
     return driver
 
+def resetup(driver, Username, Password, dashboard, Filters, Data_format, Sample):
+    driver.get("https://rest.synthesio.com/login/v1/login?login_challenge=7dd7de70f2a54d1e9987b183bedce422") #log in page
+    #driver.get("https://app.synthesio.com/dashboard-v5/376628/data/listen-tab")
+    print(driver)
+    login(driver, Username, Password) #input parameter
+    time.sleep(15)
+    selectdashboard(driver, dashboard)
+    time.sleep(30)
+    data_tab(driver)
+    time.sleep(15)
+    filters(driver, Filters)
+    time.sleep(10)
+    select_publisher(driver, Filters)
+    select_language(driver, Filters)
+    select_all_topics(driver)
 
+    return driver
 
 
 def dataexport(driver, Data_format, Sample):
@@ -294,12 +319,15 @@ def dataexport(driver, Data_format, Sample):
         Download =  driver.find_element_by_xpath('//*[@data-tracker-id="mention-modal-export-export-mention"]')
         Download.click()
 
-        time.sleep(15)
+        CloseTab = driver.find_element_by_class_name('Modal_close__10GLn')
+        CloseTab.click()
+        time.sleep(3)
+        #time.sleep(15)
 
     except Exception as e:
         print(e)
 
-    return volume
+    return volume, num
 
 def dataexportcheck(driver):
     flag = False #still in data collection, not ready to start next round
@@ -341,7 +369,7 @@ def sampling(driver, Current_time, Delta):
         Period.click()
         time.sleep(5)
 
-        Clear = driver.find_element_by_xpath('/html/body/div[1]/div/div/div/header/div[2]/div/div/div/div/div[2]/div[1]/div[2]/div/div/div/header/section/button')
+        Clear = driver.find_element_by_xpath('/html/body/div[1]/div/div/div/header/div[2]/div/div/div/div/div/div[3]/div[1]/div[2]/div/div/div/header/section/button')
         Clear.click()
 
         #input current time to the first & second boxes
