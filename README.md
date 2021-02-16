@@ -1,5 +1,5 @@
 # Selenium Automator
-### Version 1.1
+### Version 2.1
 An easy way to automate your data collection task on new dashboard.
 
 
