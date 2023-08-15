@@ -36,6 +36,8 @@ Who would benefit from this tool?
 | V4     | Adopt  to the new Synthesio dashboard |2023|
 
 
+V4.1 fixed the dashboard calendar issue through [disable the pop-up from a complete download] (https://support.mozilla.org/en-US/questions/1370262)
+
 NOTE: As Synthesio tasks vary, it is hardly to have an one-for-all template. Modifications are always necessary and encouraged. For any question, please check the contact info below. 
 
 
