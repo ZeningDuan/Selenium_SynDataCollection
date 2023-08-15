@@ -43,7 +43,7 @@ NOTE: As Synthesio tasks vary, it is hardly to have an one-for-all template. Mod
 
 **Video demo**
 | Clip | Content          | Component  |
-| -------------------------| :-------------: | ---------:|
+| -------------------------| :-------------: | -----------------:|
 | 00:00 -  01:05    | Overview the Synthesio Dashboard features| Synthesio Dashboard|
 | 01:06 -  04:18      | Introduce this GitHub repository     |GitHub repository|
 | 04:19 -  16:20     | Exaplain the design, structure, supporting files of the automator |Automator|
