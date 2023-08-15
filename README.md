@@ -1,6 +1,6 @@
 # Selenium Automator
-### Version 2.1
-An easy way to automate your data collection task on new dashboard.
+### Version 4.1
+An easy way to automate your data collection task on Synthesio dashboard.
 
 
 <!-- TABLE OF CONTENTS -->
