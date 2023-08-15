@@ -41,6 +41,17 @@ V4.1 fixed the dashboard calendar issue through [disabling the pop-up from a com
 NOTE: As Synthesio tasks vary, it is hardly to have an one-for-all template. Modifications are always necessary and encouraged. For any question, please check the contact info below. 
 
 
+**Video demo**
+| Clip | Content          | Component  |
+| --------|:-------------:     | ---------------:|
+| 00:00 -  01:05    | Overview the Synthesio Dashboard features| Synthesio Dashboard|
+| 01:06 -  04:18      | Introduce this GitHub repository     |GitHub repository|
+| 04:19 -  16:20     | Exaplain the design, structure, supporting files of the automator |Automator|
+| 16:27 -  19:32    | running the automator |demo|
+| 19:33 -  24:20     | Solutions for the issue of the failed positioning of the calendar HTML element |demo|
+| 24:21 -  26:49     | Check downloaded data files and monitor the download process |demo|
+
+
 <!-- GETTING STARTED -->
 ## Getting Started
 Parameters in the Selenium Automator vary on different task goals. A user-friendly way is to sepecify the parameters in the code chunk below. Before start, you should prepare the following information and modify the dictionaries accordingly:
