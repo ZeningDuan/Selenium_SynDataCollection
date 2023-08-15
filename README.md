@@ -19,7 +19,7 @@ An easy way to automate your data collection task on Synthesio dashboard.
 <!-- ABOUT THE PROJECT -->
 ## About the Automator
 
-This Automator was built based on Firefox browser(84.0.2) + Selenium Webdriver,an automating web-based application.See more information about [Selenium Webdriver](https://www.selenium.dev/documentation/en/introduction/). Codes are arranged in Python 3.7.0. 
+This Automator was built based on Firefox browser(114.0.1 (64-bit)) + Selenium Webdriver,an automating web-based application.See more information about [Selenium Webdriver](https://www.selenium.dev/documentation/en/introduction/). Codes are arranged in Python 3.10.11. 
 
 Who would benefit from this tool?
 * If you have a clear time frame of data collection;
@@ -28,11 +28,12 @@ Who would benefit from this tool?
 * If you plan to monitor the whole data collection process and save volume trend infomation locally;
 * If you plan a smooth, stable, and robust data collection process without any intervention.
 
-**New updates and versions are comming soon**
-| Version | Features           | Estimated Date  |
+**Versions**
+| Version | Key Features           | Push Date  |
 | --------|:-------------:     | ---------------:|
-| V2      | Break-point reconnection | Finished |
-| V3      | Support all filters      | Late Feb  |
+| V2      | Break-point reconnection | 2020|
+| V3      | Support all filters      |2021|
+| V4     | Adopt  to the new Synthesio dashboard |2023|
 
 
 NOTE: As Synthesio tasks vary, it is hardly to have an one-for-all template. Modifications are always necessary and encouraged. For any question, please check the contact info below. 
@@ -49,15 +50,20 @@ Parameters in the Selenium Automator vary on different task goals. A user-friend
   - Countries (including both continent-level and country-level information, e.g., North America [United States], Africa[Morocco])
 * **Dashboard name**
 * **Begin/End time** (Year/Month/Day/Hour/Minute)
-* **Time Interval** (hour-level)
+* **Time Interval** (hour-/Min- level)
 * **Sampling plan**
   - Mode (i.e., return the head N or a random N)
   - Fraction (i.e., a float number indicates the expected sampling fraction)
 * **Data format** (i.e., XLSX or CSV)
 
 ```
-Username = 'XXXX' #Enter your username
-Password = 'XXXX' #Enter your password
+path_to_json = "./cofig.json"
+
+with open(path_to_json, "r") as handler:
+    info = json.load(handler)
+
+Username = info["Username"]
+Password = info["Password"]
 
 Filters = {
            'Topics': ['all',
@@ -82,7 +88,7 @@ Dashboard = str('XXX')#enter your dashboard name, e.g., "CAMER (Copy)"
  
 
 Begin_date = {'Year': '2020',
-             'Month': '06',
+             'Month': '06', 
              'Day': '17',
               'Hour': '00',
               'Minute': '00'
@@ -122,7 +128,7 @@ Data_format = ['XLSX', 'CSV'][1]
 <!-- INSTALLATION -->
 ### Installation
 1. Download [Python Jupyter](https://jupyter.org/install)
-2. Download [Firehose Webdriver](https://github.com/mozilla/geckodriver/releases) and save it to the working directory. 
+2. Download [Firehose Webdriver](https://github.com/mozilla/geckodriver/releases) and save a suitable version in the utlis file accordingly. 
 3. Download [Firefox browser](https://www.mozilla.org/en-US/firefox/)
 
 <!-- CONTACT -->
@@ -131,7 +137,4 @@ Zening 'Ze' Duan, [_SJMC_](https://journalism.wisc.edu/), University of Wisconsi
 
 zening.duan AT wisc DOT edu 
 
-<!-- ACKNOWLEDGEMENTS -->
-### Acknowledgements
-Thanks Zhongkai for code testing and debugging, and thank Sijia and Dhavan for their support.
 
